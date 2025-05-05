@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <style>
+        body {
+            
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        label {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #555;
+        }
+
+        input, textarea {
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: hsl(293, 46%, 50%);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: hsl(293, 46%, 50%);
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="sidebar">
+        <nav>
+                <a href="home.html" class="action">Home</a>
+                <a href="model.html">Model</a>
+                <a href="creators.html" >Creators</a>
+                <a href="history.html">History</a>
+                <a href="about.html" >Contact Us</a>
+        </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Raja LTD. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.sidebar {
+    position:absolute;
+    top: 0;
+    right: 0;
+    background-color: #000000;
+    padding-top: 50px;
+    padding-right: 30px;
+  }
+  
+  header{
+    background-color: black;
+    padding: 35px;
+    padding-left: 10px;
+    border-color: #ca45db;
+    border: 10px;
+  }
+
+  
+.logo_1{
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  
+  .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #c944db;
+    text-transform: uppercase;
+    font-style: oblique;
+  }
+  
+  .logo::before {
+    content: "VINTAGE CARS";
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 400;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover, nav a.active {
+    color: #c04bc4;
+    border-bottom: 2px solid #af46af;
+    padding-bottom:3px;
+  }
